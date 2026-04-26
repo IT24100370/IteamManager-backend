@@ -33,6 +33,10 @@ const itemSchema = new mongoose.Schema(
       default: "",
       trim: true,
     },
+    labelName: {
+      type: String,
+      trim: true,
+    }
   },
   { timestamps: true }
 );
